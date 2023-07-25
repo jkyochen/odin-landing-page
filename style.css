@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    flex: 0 0 50px;
+    color: gray;
+    background-color: rgb(34, 31, 31);
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex: 1;
+}
+
+.introduce {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    width: 300px;
+}
+
+.introduce-title {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.introduce-image {
+    width: 500px;
+    height: 200px;
+    background-color: bisque;
+}
+
+.content2 {
+    flex: 1;
+}
+
+.content2-title {
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.content2-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.content2-container-info {
+    width: 110px;
+}
+
+.content2-img {
+    height: 110px;
+    border: solid;
+}
+
+.content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color: lightgray;
+}
+
+.content3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.content3-quote {
+    width: 400px;
+    font: italic 1.2em "Fira Sans", serif;
+}
+
+.content3-author {
+    font-weight: bold;
+}
+
+.content4 {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 50px;
+    color: white;
+    background-color: black;
+}
